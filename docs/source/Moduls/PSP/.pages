@@ -1,8 +1,0 @@
-arrange:
-  - page-1.md
-  - page-2.md
-  - subdirectory
-
-hide: true
-
-collapse: true

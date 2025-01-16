@@ -1,0 +1,192 @@
+site_name: Docencia Xavier
+site_url: https://docencia.xaviersastre.cat/
+use_directory_urls: false
+#site_dir: C:\Users\Xavier\Documents\GitHub\xsastre.github.io
+site_dir: /Users/xavier/projectes/xsastre.github.io
+nav:
+  - Inici: "index.md"
+  - DWES:
+    - "UT02 Llenguatge PHP": "Moduls/DWES/UT02PHP.md"
+    - "UT03 PHP POO": "Moduls/DWES/UT03PHPPOO.md"
+    - "UT05 Accés a dades": "Moduls/DWES/UT05AccesADades.md"
+    - "UT05 Accés a dades amb MySQL": "Moduls/DWES/UT05AccesADadesAmbMySQL.md"
+    - Exercicis i solucions:
+        - "Exercicis PHP": "Moduls/DWES/exercicisisolucions/Exercicis.md"
+        - "Exercicis PHP POO": "Moduls/DWES/exercicisisolucions/ExercicisPOO.md"
+        - "Exercici PHP Gestió Botiga": "Moduls/DWES/exercicisisolucions/ExerciciGestioBotiga.md"
+        - "Expressions Regulars PHP": "Moduls/DWES/exercicisisolucions/ExpressionsRegularsPHP.md"
+        - "Exercicis UT04 - Programació Web PHP": "Moduls/DWES/exercicisisolucions/ExercicisUT04.md"
+  - DWEC:
+    - "Desenvolupament web en entorn client - DAW": "Moduls/DWEC/_DWEC2425.md"
+    - "Desenvolupamet frontend": "Moduls/DWEC/desenvolupamentfrontend.md"
+    - "Diapositives UT03": "Moduls/DWEC/UT03Diapositives.md"
+    - "UT03 - Treball amb matrius": "Moduls/DWEC/UT03_Treball_amb_matrius.md"
+    - "UT03 - Funcions a JavaScript": "Moduls/DWEC/UT03FuncionsJavascript.md"
+    - Exercicis i solucions:
+        - "Exercicis UT02": "Moduls/DWEC/exercicisisolucions/Exercicis_UT02.md"
+        - "Exercicis UT03": "Moduls/DWEC/exercicisisolucions/Exercicis_UT03.md"
+        - "Exercici UT03 - Interpretació codi": "Moduls/DWEC/exercicisisolucions/Exercici_UT03_funcio_reduce.md"
+    - "DOM": "Moduls/DWEC/dom.md"
+    - "Asincronía y promesas": "Moduls/DWEC/promesas.md"
+    - "Comunicación con el servidor - AJAX": "Moduls/DWEC/ajax.md"
+    - "Angular":
+        - "Typescript": "Moduls/DWEC/angular/Typescript.md"
+        - "Introducción a Angular": "Moduls/DWEC/angular/angular.md"
+        - "Consejos": "Moduls/DWEC/angular/consejos.md"
+        - "Comunicación con el servidor en Angular": "Moduls/DWEC/angular/httpangular.md"
+        - "Rutas en Angular": "Moduls/DWEC/angular/rutasangular.md"
+        - "Formularios en Angular": "Moduls/DWEC/angular/formulariosangular.md"
+    - "Contingut addicional":
+        - "npm": "Moduls/DWEC/npm.md"
+        - "GIT": "Moduls/DWEC/git.md"
+        - "NodeJS": "Moduls/DWEC/modejs.md"
+
+  - PSP:
+      - Continguts:
+        - "Codis exemple multifil": "Moduls/PSP/_PSP2425.md"
+        - "Problema del sopar dels filòsofs": "Moduls/PSP/UT02/filosofs.md"
+        - "Continguts UT02": "Moduls/PSP/UT02/UT02Continguts.md"
+        - "Problema del jardí": "Moduls/PSP/UT02/Problemadeljardi.md"
+        - "Exercicis Multifil": "Moduls/PSP/exercicisisolucions/ExercicisFils.md"
+  - AW:
+    - "Temporització aproximada": "Moduls/AW/00.md"
+    - "UT01 Aplicacions web": "Moduls/AW/01.md"
+    - "UT02 HTML": "Moduls/AW/02.md"
+    - "UT03 CSS": "Moduls/AW/03CSS.md"
+    - Exercicis i solucions:
+        - "Solució Formulari 1": "Moduls/AW/exercicisisolucions/solucio_formulari1.md"
+        - "Tasca HTML w3schools": "Moduls/AW/exercicisisolucions/practica_html_W3Schools.md"
+        - "Pràctica HTML freeCodeCamp": "Moduls/AW/exercicisisolucions/practica_html_freeCodeCamp.md"
+        - "Pràctica CSS W3Schools": "Moduls/AW/exercicisisolucions/practica_CSS_W3Schools.md"
+        - "Exercici HTML+CSS Restaurant": "Moduls/AW/exercicisisolucions/ExerciciHTMLCSSRestaurant.md"
+        - "Pràctica avaluable Portafoli HTML+CSS": "Moduls/AW/exercicisisolucions/practicaPortafoliHTMLCSS.md"
+  - SI:
+      - "Continguts": "Moduls/SI/_SI2425.md"
+      - "Càlcul potència necessaria per un SAI": "Moduls/SI/calculPotenciaSAI.md"
+      - "Pràctica potència SAI": "Moduls/SI/practicaPotenciaSAI.md"
+      - "Treball de classe - Seguretat passiva equips i emmagatz.": "Moduls/SI/SIUT02UT03.md"
+  - AOF:
+      - Continguts:
+        - "Organització individual de la feina": "Moduls/AOF/UT_organitzacio_treball.md"
+        - "AOFUT02 - Presentacions": "Moduls/AOF/AOFUT2_Presentacions.md"
+  - Blog:
+      - blog/index.md
+
+theme:
+  language: ca
+  favicon: imatges/favicon.png
+  name: "material"
+  palette:
+    - scheme: default
+      #primary: light blue
+      primary: blue grey
+      accent: "Teal"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Canviar a mode nit
+    - scheme: slate 
+      #primary: light blue
+      primary: blue grey
+      accent: "Teal"
+      toggle:
+        icon: material/toggle-switch
+        name: Canviar a mode dia
+  font:
+    text: Roboto
+    #text: IBM Plex Sans Condensed
+    #code: Roboto Mono
+    code: IBM Plex Mono
+  #logo: "imatges/logofp.png"
+  logo: "imatges/education_blanc.png"
+  features:
+    - header.autohide
+    - toc.integrate
+    - content.tabs.link
+    # - navigation.tabs
+    # - navigation.top
+    # - navigation.expand
+
+#extra:
+#  search:
+#    language: "es"
+#  social:
+#    - icon: material/twitter
+#      link: https://twitter.com/
+#    - icon: material/email-edit
+#      link: mailto:<>
+
+#    property: G-4T8L62JN2D
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+  - awesome-pages
+  - blog
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - footnotes
+  - meta
+  - sane_lists
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+extra:
+  analytics:
+    provider: google
+    property: G-KXJX1CP7QG
+  consent:
+    title: Consentiment ús galetes
+    description: >-
+      Utilitzem galetes per reconèixer les vostres visites, així com
+      mesurar l'eficàcia de la nostra documentació i si els usuaris
+      troben allò que estan buscant. Amb el teu consentiment, ens ajudes a
+      millorar la nostra documentació.
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/extra.css
+
+copyright: 2024 Xavier Sastre - Llicencia CC BY-NC-SA
+  <a href="#__consent">Canvia configuració de les galetes</a>
